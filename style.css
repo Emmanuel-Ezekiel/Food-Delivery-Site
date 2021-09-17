@@ -278,7 +278,7 @@ body.dark-theme {
 .button-flex {
   display: inline-flex;
   align-items: center;
-  column-gap: .25rem;
+  column-gap: .35rem;
   padding: .75rem 1rem;
 }
 
