@@ -32,6 +32,8 @@
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">Contact us</a>
                     </li>
+
+                    <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
                 </ul>
             </div>
 
@@ -681,12 +683,13 @@
 
         <!-- ================= About ================== -->
         <section class="about section container" id="about">
-            <div class="about__container grid">
+        <div class="about__container grid">
+            <div class="about__data">
                 <h2 class="section__title-center">Find Out A Little More <br> About Us</h2>
                 <p class="about__description">We are a company dedicated to the distribution of products by delivery
                     to your home or to the place where you are, with the best quality of delivery.
                 </p>
-
+            </div>
                 <svg class="svg__img svg__color about__img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
                     <g id="freepik--background-complete--inject-37">
                         <rect y="382.4" width="500" height="0.25" style="fill:#ebebeb"></rect>
@@ -1147,9 +1150,9 @@
                         </g>
                     </g>
                 </svg>
-            </div>
-        </section>
-    </main>
+        </div>
+     </section>
+
 
     <!-- ================= Security ================== -->
     <section class="security section container">
@@ -1423,7 +1426,7 @@
     <section class="services section container" id="services">
         <h2 class="section__title">Some Services We <br> Offer</h2>
 
-        <div class="seervices__container grid">
+        <div class="services__container grid">
             <div class="services__data">
                 <h3 class="services__subtitle">
                     Payment Done
@@ -9657,17 +9660,75 @@
     </section>
     <!-- ================= Contact Us ================== -->
     <section class="contact section container" id="contact">
-    
+        <div class="contact__container grid">
+            <div class="contact__content">
+                <h2 class="section__title-center">Contact Us From <br> Here</h2>
+                        <p class="contact__description">You can contact us from here, you can write to us, 
+                            call us or visit our service center, we will gladly assist you.</p>
+            </div>
+            <ul class="contact__content grid">
+                        <li class="contact__address">Telephone: <span class="contact__information"> 011-111-111</span></li>
+                        <li class="contact__address">Email:  <span class="contact__information"> Food-delivery@email.com</span></li>
+                        <li class="contact__address">Location: <span class="contact__information"> Lagos - Nigeria</span></li>
+             </ul>
+             <div class="contact__content">
+                        <a href="#" class="button">Contact Us</a>
+            </div>
+        </div>
+
     </section>
 
-
+</main>
 
     <!-- ================= FOOTER ================== -->
     <footer class="footer section">
-
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Delivery</a>
+                    <p class="footer__description">Order Products Faster <br> Easier</p>
+                </div>
+        
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Services</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Pricing </a></li>
+                        <li><a href="#" class="footer__link">Discounts</a></li>
+                        <li><a href="#" class="footer__link">Report a bug</a></li>
+                        <li><a href="#" class="footer__link">Terms of Service</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Company</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Our mision</a></li>
+                        <li><a href="#" class="footer__link">Get in touch</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer__content">
+                    <h3 class="footer__title">Community</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Support</a></li>
+                        <li><a href="#" class="footer__link">Questions</a></li>
+                        <li><a href="#" class="footer__link">Customer help</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+        
+            <p class="footer__copy">&#169; Food-Delivery. All right reserved</p>
     </footer>
     <!-- ================= SCROLL UP ================= -->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
 
     <!-- ================= MAIN JS ================== -->
     <script src="main.js"></script>
